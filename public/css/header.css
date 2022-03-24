@@ -1,4 +1,25 @@
 header {
     background-color: var(--colorAmarillo);
-   
+}
+
+header .lupa {   
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+
+header .burger {
+    background-color: var(--colorCeleste);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-size: 32px;
+    margin: 0 auto 30px;
+    padding: 5px;
+    width: 50px;
+}
+header ul li {
+    font-size: 12px;
 }

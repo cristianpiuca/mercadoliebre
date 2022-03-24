@@ -1,0 +1,29 @@
+input {
+    border: solid var(--colorGrisOscuro);
+    background-color: white;
+}
+
+a {
+    color: var(--colorAzul);
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+header .hand-usd {
+    text-align: center;
+    margin: 35px auto 0px;
+}
+
+
+html,body{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: var(--font-roboto);
+}

@@ -1,0 +1,28 @@
+footer {
+    width: 86%;
+    margin: auto;
+    background-color: white;
+    color: var(--colorGrisOscuro);
+    font-size: 0.7rem;
+}
+
+.footerIcon {
+    font-size: 2em;  
+}
+
+.top-footer {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.icono-beneficios {
+    color: var(--colorCeleste)
+}
+
+.copyright {
+    text-align: left;
+}
