@@ -1,14 +1,14 @@
 input {
-    border: solid var(--colorGrisOscuro);
-    background-color: white;
+    border:thin;
+    padding-right: 20px;
+    
+    
 }
 
 a {
     color: var(--colorAzul);
     text-decoration: none;
 }
-
-
 
 ul {
     list-style: none;
@@ -17,13 +17,14 @@ ul {
 
 header .hand-usd {
     text-align: center;
-    margin: 35px auto 0px;
+    padding-top: 0px;
+    margin-bottom: 25px;
 }
-
 
 html,body{
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
     font-family: var(--font-roboto);
+    background-color: var(--colorGrisClaro);
 }

@@ -1,13 +1,7 @@
 header {
     background-color: var(--colorAmarillo);
+    padding: 25px;
 }
-
-header .lupa {   
-    position: absolute;
-    left: 0px;
-    top: 80px;
-}
-
 
 header .burger {
     background-color: var(--colorCeleste);
@@ -16,10 +10,41 @@ header .burger {
     color: white;
     display: block;
     font-size: 32px;
-    margin: 0 auto 30px;
+    margin: auto;
     padding: 5px;
     width: 50px;
+    text-align: center;
 }
+
 header ul li {
     font-size: 12px;
+}
+
+.menuOculto {
+    display: none;
+}
+
+.busqueda {
+    padding-left: 20px
+}
+
+
+/*TABLET*/
+
+@media (min-width: 500px) {
+
+    .menuOculto{
+        display: block;
+        
+    }
+
+    header .burger {
+        display: none;
+    }
+}
+
+/*DESKTOP*/
+
+@media (min-width: 769px){
+
 }
