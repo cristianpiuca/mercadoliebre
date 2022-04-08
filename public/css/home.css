@@ -41,11 +41,17 @@ section article {
 
 
 .art-product {
-    border-top: 1px solid #ebebeb;
+    
     background: white;
-    padding: 15px;
+    padding: 0;
     margin: 10px;
-    box-shadow: 0 0 10px rgb(100, 100, 100);
+    
+}
+
+.linea {
+    border-top: 1px solid #ebebeb;
+    padding: 10px
+
 }
 
 .fa-truck {
@@ -57,18 +63,18 @@ section article {
 }
 
 .banner{
-    height: 80px;
+    width: 100%;
 }
 
 /*TABLET*/
 
-@media (min-width: 500px) {
+@media (min-width: 460px) {
     h3.descripciones {
         display: block;
     }
 
-    .banner{
-        height: 107px;
+    .art-product {
+        box-shadow: 0 0 10px rgb(100, 100, 100);
     }
 }
 
@@ -76,8 +82,8 @@ section article {
 
 @media (min-width: 769px){
 
-    .banner{
-        height: 163px;
+    .art-product {
+        box-shadow: 0 0 10px rgb(100, 100, 100);
     }
 
 }
