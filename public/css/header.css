@@ -1,6 +1,13 @@
+.menuOculto{
+    display: none;
+}
+
 header {
     background-color: var(--colorAmarillo);
-    padding: 25px;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    padding-bottom: 25px;
 }
 
 header .burger {
@@ -14,37 +21,207 @@ header .burger {
     padding: 5px;
     width: 50px;
     text-align: center;
+    
 }
 
-header ul li {
-    font-size: 12px;
+cajaprincipal {
+    display: flex;
 }
 
-.menuOculto {
-    display: none;
+.caja {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 
-.busqueda {
-    padding-left: 20px
+#busqueda {
+    position: relative;
 }
 
+.logo{
+    width: 35%;
+}
 
+.logo img {
+    width: 120px;
+    height: 60px;
+    margin-left: -10px;
+}
+
+    .busqueda {
+        display: flex;
+        width: 65%;
+    }
+
+.busqueda input {
+    border: none;
+}
+
+.busqueda input:focus {
+    outline: none;
+}
+
+.Boton {
+    background-color: white;
+    color: var(--color-grisOscuro);
+}
+
+.lupa{
+    font-size: 20px;
+    padding: 0 1.5px;
+}
+
+.fa-bars {
+    padding: 5px;
+}
+
+.Lupa{
+    position: absolute;
+    right: 2px;
+    top: 7px;
+    background-color: white;
+
+}
+
+#barra{
+    padding: 10px;
+}
 /*TABLET*/
 
-@media (min-width: 460px) {
-
-    .menuOculto{
-        display: block;
-        
-    }
-
-    header .burger {
+@media (min-width: 460px) {  
+    header .burger{
         display: none;
     }
+
+    .caja{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        line-height: 50%;
+    }
+
+    .menuOculto{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 0 -10px;
+    }
+
+    .menu-left {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .left {
+        display: flex;
+        font-size: 9px;
+        padding: 0 2px;
+    }
+
+
+    .menu-right{
+        display: flex;
+        flex-direction: row 
+    }
+
+    .right{
+        display: flex;
+        font-size: 9px;
+        padding: 0 3px;
+
+    }
+
+    .hand-usd {
+        font-size: 7px;
+        width: 217px;
+        margin: 0 0 0 10px;
+    }
+
+    .busqueda {
+        width: 71%;
+
+    }
+
+    #busqueda {
+        margin: 0 22px;
+    }
+
+    #barra {
+        padding: 2px;
+    width: 132px;
+    }
+
+    .Lupa {
+        right: -26px;
+    top: 0px;
+    }
+
+    .lupa{
+        font-size: 19px;
+    }
+
+    .logo {
+        margin: 0 -18px;
+    }
+
 }
 
-/*DESKTOP*/
+
 
 @media (min-width: 769px){
+
+  
+    
+    .left {
+        padding: 0 0.5rem;
+        font-size: 0.9rem; 
+    }
+    
+  
+    
+    .right {
+        padding: 0 0.5rem;
+        font-size: 0.9rem;
+    }
+
+     .headerMayor {
+        height: 110px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+
+    .logo img {
+        width: 10.5rem;
+    } 
+
+
+    .menuOculto {
+       width: 100%;
+    }
+
+    .busqueda {
+        width: 71%;
+    }
+
+    #busqueda {
+        margin: 0px 55px;
+        width: 100%;
+    }
+
+    #barra {
+        width: 100%;
+    }
+
+    .hand-usd {
+        font-size: 11px;
+        width: 330px;
+    }
+
+
 
 }
