@@ -119,6 +119,10 @@ main section article div {
     .descuentos {
         left: 25px;
     }
+
+    .descripcion{
+        opacity: unset;
+    }
 }
 /*DESKTOP*/
 
