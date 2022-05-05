@@ -95,6 +95,8 @@ main section article div {
 
     .card-product {
         box-shadow: 0 0 10px rgb(100, 100, 100);
+        margin-left: -20px;
+        margin-right: -20px;
     }
 
     h2 {
@@ -105,6 +107,7 @@ main section article div {
     main section {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     main section article {
@@ -127,13 +130,16 @@ main section article div {
 /*DESKTOP*/
 
 @media (min-width: 769px){
-
-    .product-art {
-        box-shadow: 0 0 10px rgb(100, 100, 100);
+    .card-product {
+        margin-left: 10px;
+        margin-right: 10px;
     }
+
+   
 
     main section {
         flex-wrap: nowrap;
+        
     }
 
     main section article {

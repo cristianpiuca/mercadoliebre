@@ -30,3 +30,9 @@ footer {
 div.icono-beneficios{
     padding-top: 30px;
 }
+
+@media (min-width: 769px) {
+    .top-footer {
+        flex-direction: unset
+    }
+}
